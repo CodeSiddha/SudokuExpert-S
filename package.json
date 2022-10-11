@@ -1,0 +1,23 @@
+{
+  "name": "sudoku-server",
+  "version": "1.0.0",
+  "description": "sudoku Expert",
+  "main": "server.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortalcoder25/sudoku-server.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Vishal Siddha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
